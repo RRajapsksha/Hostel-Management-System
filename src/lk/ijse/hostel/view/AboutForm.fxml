@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="aboutContext" prefHeight="529.0" prefWidth="666.0" styleClass="right-side-background" stylesheets="@../assert/style/StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.AboutFormController">
+   <children>
+      <Label layoutX="77.0" layoutY="40.0" text="Dashboard" textFill="#54b9dd">
+         <font>
+            <Font name="Times New Roman Bold" size="37.0" />
+         </font>
+      </Label>
+      <Separator layoutX="30.0" layoutY="101.0" prefHeight="0.0" prefWidth="611.0" />
+      <BarChart layoutX="46.0" layoutY="167.0" prefHeight="270.0" prefWidth="551.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" tickLabelFill="WHITE" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" tickLabelFill="WHITE" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="250.0" layoutY="123.0" text="Student Detils" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
